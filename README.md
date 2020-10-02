@@ -18,19 +18,17 @@ ExecStart=/usr/bin/python3 <absolute/path/to>/dataGen.py
 `sudo systemctl enable dataGen.service`
 4. Reboot
 
-## Tweaking Instructions
+## Setup Instructions
 Enter the function you need in line 43: ```data = <ENTER YOUR FUNCTION HERE>```  
 This will allow you to get your specific values from the sensehat.
 
 Refer to the sense-hat api for the different methods you can call.  
 https://pythonhosted.org/sense-hat/api/
 
-You'll have to 
-
 Remember to change the other commented lines too.
-This are all labeled in the python file.
+These are all labeled in the python file.
 
-## Instructions
+## Operating Instructions
 - Turn on the Pi
 - Choose your activity using the joystick. s = start, e = exit
 - Start the recording by clicking on the joystick. (LED grid will turn red)
